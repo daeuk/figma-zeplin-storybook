@@ -38,7 +38,7 @@
             "storybook": {
                 "kind": "example/Header",
                 "stories": [
-                    "Logged Out"
+                    "Logged In","Logged Out"
                 ]
             }
         }
