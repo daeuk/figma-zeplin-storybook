@@ -1,0 +1,50 @@
+{
+    "plugins": [
+        {
+            "name": "@zeplin/cli-connect-react-plugin"
+        },
+        {
+            "name": "@zeplin/cli-connect-storybook-plugin",
+            "config": {
+                "url": "http://localhost:6006",
+                "startScript": "storybook",
+                "fetchStories": false,
+                "format": "new"
+            }
+        }
+    ],
+    "projects": [
+        "5f69c523fde7020b029b3a3d"
+    ],
+    "styleguides": [],
+    "components": [
+        {
+            "path": "src/stories/Button.jsx",
+            "zeplinIds": [
+                "600f874ad026be3328897c76"
+            ],
+            "storybook": {
+                "kind": "example/Button",
+                "stories": [
+                    "secondary"
+                ]
+            }
+        },
+        {
+            "path": "src/stories/Header.jsx",
+            "zeplinIds": [
+                "601a48faeb530a215ea3fa61"
+            ],
+            "storybook": {
+                "kind": "example/Header",
+                "stories": [
+                    "Logged Out"
+                ]
+            }
+        }
+    ],
+    "github": {
+        "repository": "daeuk/figma-zeplin-storybook",
+        "branch": "master"
+    }
+}
